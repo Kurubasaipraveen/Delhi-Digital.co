@@ -1,0 +1,74 @@
+.home-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .add-invoice-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .add-invoice-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .invoice-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .invoice-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .invoice-item p {
+    margin: 5px 0;
+  }
+  
+  strong {
+    color: #555;
+  }
+  .edit-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
