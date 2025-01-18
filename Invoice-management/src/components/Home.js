@@ -14,7 +14,7 @@ const Home = () => {
   useEffect(() => {
     // Fetch the list of invoices from the backend
     axios
-      .get("https://delhi-digital-co.onrender.com/api/invoices")
+      .get("https://delhi-digital-co-1.onrender.com/api/invoices")
       .then((res) => {
         setInvoices(res.data);
         setFilteredInvoices(res.data);

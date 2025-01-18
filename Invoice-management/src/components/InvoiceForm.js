@@ -59,7 +59,7 @@ function InvoiceForm() {
       } else {
         // Create a new invoice
         axios
-          .post("https://delhi-digital-co.onrender.com/api/invoices", formData)
+          .post("https://delhi-digital-co-1.onrender.com/api/invoices", formData)
           .then(() => {
             alert("Invoice added successfully!");
             navigate("/home");
